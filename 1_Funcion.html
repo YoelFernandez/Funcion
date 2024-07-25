@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Creacion de una funcion</title>
+    <link rel="stylesheet" href="1_Funcion.css" />
+  </head>
+  <body>
+    <div class="contenedor">
+      <div class="titulo">
+        <h1>Función f(x) = a*x+b</h1>
+        <p>se dibujara la funcion en el canvas</p>
+      </div>
+      <p>
+        Digite el valor para la variable "a":<input type="number" id="va" />
+      </p>
+      <p>
+        Digite el valor para la variable "b":<input type="number" id="vb" />
+      </p>
+      <input
+        type="button"
+        value="Dibujar la Funcion"
+        onclick="iniciar()"
+      /><br /><br />
+      <canvas width="600px" height="600px" id="canvaYoel"></canvas>
+    </div>
+
+    <script src="1_Funcion.js"></script>
+  </body>
+</html>
